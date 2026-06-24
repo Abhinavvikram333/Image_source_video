@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# render outputs / caches
+engines/remotion/out/
+engines/manim/media/
+.remotion/
+
+# os
+.DS_Store

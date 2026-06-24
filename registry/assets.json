@@ -1,0 +1,214 @@
+[
+  {
+    "id": "custom:load-balancer",
+    "name": "Load Balancer",
+    "kind": "diagram",
+    "source": "custom",
+    "ref": "custom/load-balancer.svg",
+    "tags": [
+      "load-balancer",
+      "traffic",
+      "distribution",
+      "system-design"
+    ],
+    "license": "Original work — DSA Champ"
+  },
+  {
+    "id": "simple-icons:amazonwebservices",
+    "name": "Amazon Web Services",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "amazonwebservices",
+    "tags": [
+      "cloud",
+      "infrastructure",
+      "aws"
+    ],
+    "hex": "232F3E",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:docker",
+    "name": "Docker",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "docker",
+    "tags": [
+      "container",
+      "devops",
+      "image"
+    ],
+    "hex": "2496ED",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:graphql",
+    "name": "GraphQL",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "graphql",
+    "tags": [
+      "api",
+      "query-language"
+    ],
+    "hex": "E10098",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:javascript",
+    "name": "JavaScript",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "javascript",
+    "tags": [
+      "language",
+      "frontend",
+      "web"
+    ],
+    "hex": "F7DF1E",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:kubernetes",
+    "name": "Kubernetes",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "kubernetes",
+    "tags": [
+      "orchestration",
+      "container",
+      "devops"
+    ],
+    "hex": "326CE5",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:mongodb",
+    "name": "MongoDB",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "mongodb",
+    "tags": [
+      "database",
+      "nosql",
+      "document"
+    ],
+    "hex": "47A248",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:nginx",
+    "name": "NGINX",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "nginx",
+    "tags": [
+      "load-balancer",
+      "reverse-proxy",
+      "web-server"
+    ],
+    "hex": "009639",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:postgresql",
+    "name": "PostgreSQL",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "postgresql",
+    "tags": [
+      "database",
+      "sql",
+      "relational"
+    ],
+    "hex": "4169E1",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:python",
+    "name": "Python",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "python",
+    "tags": [
+      "language",
+      "scripting",
+      "backend"
+    ],
+    "hex": "3776AB",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:pytorch",
+    "name": "PyTorch",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "pytorch",
+    "tags": [
+      "ml",
+      "ai",
+      "deep-learning",
+      "neural-network"
+    ],
+    "hex": "EE4C2C",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:react",
+    "name": "React",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "react",
+    "tags": [
+      "frontend",
+      "ui",
+      "framework"
+    ],
+    "hex": "61DAFB",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:redis",
+    "name": "Redis",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "redis",
+    "tags": [
+      "cache",
+      "database",
+      "in-memory",
+      "key-value"
+    ],
+    "hex": "FF4438",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:tensorflow",
+    "name": "TensorFlow",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "tensorflow",
+    "tags": [
+      "ml",
+      "ai",
+      "deep-learning",
+      "neural-network"
+    ],
+    "hex": "FF6F00",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  },
+  {
+    "id": "simple-icons:typescript",
+    "name": "TypeScript",
+    "kind": "logo",
+    "source": "simple-icons",
+    "ref": "typescript",
+    "tags": [
+      "language",
+      "typed",
+      "web"
+    ],
+    "hex": "3178C6",
+    "license": "CC0-1.0 (Simple Icons); brand logos remain trademarks of owners"
+  }
+]

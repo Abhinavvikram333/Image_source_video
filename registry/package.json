@@ -1,0 +1,13 @@
+{
+  "name": "dsachamp-registry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Engine-agnostic asset registry for DSA Champ video elements.",
+  "scripts": {
+    "build": "node scripts/build-registry.mjs"
+  },
+  "dependencies": {
+    "simple-icons": "^13.0.0"
+  }
+}

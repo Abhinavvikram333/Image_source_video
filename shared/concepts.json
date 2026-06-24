@@ -1,0 +1,24 @@
+{
+  "_comment": "Resolution layer: maps the words a script/topic uses to asset ids in registry/assets.json. Start with keywords; swap in embeddings later without changing callers. Both engines read this same file.",
+  "concepts": {
+    "load balancer": { "asset": "simple-icons:nginx", "also": ["custom:load-balancer"] },
+    "reverse proxy": { "asset": "simple-icons:nginx" },
+    "cache": { "asset": "simple-icons:redis" },
+    "in-memory database": { "asset": "simple-icons:redis" },
+    "relational database": { "asset": "simple-icons:postgresql" },
+    "sql database": { "asset": "simple-icons:postgresql" },
+    "nosql": { "asset": "simple-icons:mongodb" },
+    "document database": { "asset": "simple-icons:mongodb" },
+    "container": { "asset": "simple-icons:docker" },
+    "orchestration": { "asset": "simple-icons:kubernetes" },
+    "api": { "asset": "simple-icons:graphql" },
+    "cloud": { "asset": "simple-icons:amazonwebservices" },
+    "machine learning": { "asset": "simple-icons:tensorflow", "also": ["simple-icons:pytorch"] },
+    "deep learning": { "asset": "simple-icons:pytorch" },
+    "neural network": { "asset": "simple-icons:pytorch" },
+    "python": { "asset": "simple-icons:python" },
+    "javascript": { "asset": "simple-icons:javascript" },
+    "typescript": { "asset": "simple-icons:typescript" },
+    "react": { "asset": "simple-icons:react" }
+  }
+}

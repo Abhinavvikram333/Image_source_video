@@ -1,0 +1,9 @@
+{
+  "id": "custom:load-balancer",
+  "name": "Load Balancer",
+  "kind": "diagram",
+  "source": "custom",
+  "ref": "custom/load-balancer.svg",
+  "tags": ["load-balancer", "traffic", "distribution", "system-design"],
+  "license": "Original work — DSA Champ"
+}

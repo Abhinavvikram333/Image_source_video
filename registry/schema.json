@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DSA Champ Asset Registry Entry",
+  "description": "One reusable visual asset, engine-agnostic. Points at an upstream icon set or a local custom SVG — never duplicates an icon that already exists upstream.",
+  "type": "object",
+  "required": ["id", "name", "kind", "source"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique id, e.g. 'simple-icons:redis' or 'custom:load-balancer'.",
+      "pattern": "^[a-z0-9-]+:[a-z0-9-]+$"
+    },
+    "name": { "type": "string", "description": "Human label, e.g. 'Redis'." },
+    "kind": {
+      "type": "string",
+      "enum": ["logo", "icon", "diagram", "shape"],
+      "description": "What this asset is."
+    },
+    "source": {
+      "type": "string",
+      "enum": ["simple-icons", "devicon", "iconify", "custom"],
+      "description": "Where the artwork comes from."
+    },
+    "ref": {
+      "type": "string",
+      "description": "Source-specific reference: simple-icons slug, devicon name, iconify id, or a path under registry/custom/ for custom."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Search/routing keywords, e.g. ['cache','database','in-memory']."
+    },
+    "hex": {
+      "type": "string",
+      "description": "Brand color hex (no #), when known.",
+      "pattern": "^[0-9A-Fa-f]{6}$"
+    },
+    "license": {
+      "type": "string",
+      "description": "Usage license/terms of the artwork."
+    }
+  }
+}

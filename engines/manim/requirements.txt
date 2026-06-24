@@ -1,0 +1,4 @@
+# Algorithm-slot engine. Install with:
+#   SETUPTOOLS_USE_DISTUTILS=stdlib pip3 install -r requirements.txt
+# System deps (Debian/Ubuntu): ffmpeg libcairo2-dev libpango1.0-dev pkg-config python3-dev
+manim==0.20.1
