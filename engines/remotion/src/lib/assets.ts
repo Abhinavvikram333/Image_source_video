@@ -32,6 +32,11 @@ export function getAsset(id: string): Asset | undefined {
   return ASSETS.find((a) => a.id === id);
 }
 
+/** All registry assets, for galleries/catalogs. */
+export function listAssets(): Asset[] {
+  return ASSETS;
+}
+
 /** Resolve a concept phrase -> asset id (layer 3). Keyword match for now;
  *  swap the body for embeddings later without changing callers. */
 export function resolveConcept(phrase: string): string | undefined {
